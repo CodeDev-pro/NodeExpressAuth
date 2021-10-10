@@ -1,1 +1,1 @@
-module.exports.MONGO_DB_URL = ""
+module.exports.MONGO_DB_URL = "mongodb+srv://authserver:authserver7777@cluster0.gcfmw.mongodb.net/users?retryWrites=true&w=majority"
