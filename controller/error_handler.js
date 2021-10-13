@@ -2,6 +2,13 @@ module.exports.handleErrors = (error) => {
     console.log(error.message, error.code);
         let errors = { email: "", password: "" }
 
+        if(error.email === 'Email does not exist'){
+            errors.email = email.error
+        }
+        if(error.email === 'incorrect password'){
+            errors.email = email.error
+        }
+
         if(error.code == 11000) {
             errors.email = "email already exists";
             return errors;

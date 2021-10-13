@@ -1,1 +1,2 @@
-module.exports.MONGO_DB_URL = "mongodb+srv://authserver:authserver7777@cluster0.gcfmw.mongodb.net/users?retryWrites=true&w=majority"
+module.exports.MONGO_DB_URL = "mongodb+srv://authserver:authserver@cluster0.gcfmw.mongodb.net/users?retryWrites=true&w=majority"
+module.exports.JWT_SECRET = "2yu3ihnfjwljau9u923piehjfnjaloi3uoi2efnafkdaoi0"
